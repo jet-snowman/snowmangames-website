@@ -1,10 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Hello World</title>
+  <!-- META TAGS -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- WEBSITE TITLE & DESCRIPTION -->
+  <title>SnowmanGames.com</title>
+  <meta name="description" content="SnowmanGames">
+  <meta name="keywords" content="SnowmanGames, game studio">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animations.css" rel="stylesheet">
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+<!-- Loading Screen -->
+<div id="loader-wrapper">
+  <h1 class="loader-logo">SNOWMAN <span class="colored">GAMES</span></h1>
+  <div id="progress"></div>
+  <h3 class="loader-text">LOADING</h3>
+</div>
 
+<!-- //// HEADER //// -->
+<header id="main-header">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+    <div class="container">
+      <h1 class="navbar-brand">SNOWMAN <span class="colored">GAMES</span></h1>
+    </div>
+  </nav>
+</header><!-- Header End -->
+
+<!-- /// HERO SECTION /// -->
+<div id="hero-section" class="small-margin">
+  <div id="particles-web"></div>
+  <div class="row hero-unit">
+    <div class="container">
+      <div class="hero-caption"><!-- Main Tagline -->
+        <img src="images/logo.png" style="max-width: 300px; margin-bottom: 50px" alt="logo">
+        <h1>We Make <span class="colored">Awesome Games</span></h1>
+      </div>
+    </div>
+  </div>
+</div><!-- Hero Section End -->
+
+
+<!-- /// Main Container /// -->
+<div class="container">
+  <!-- /// ABOUT SECTION /// -->
+  <div id="about">
+    <div class="row heading tiny-margin">
+      <div class="col-md-auto">
+        <h1 class="animation-element slide-down">ABOUT <span class="colored">US</span></h1>
+      </div>
+      <div class="col">
+        <hr class="animation-element extend">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <p class="small-margin">
+          We are a small, dedicated team specializing in the creation of 2D games. Our passion for game development drives us to craft
+          unique and engaging experiences for players of all ages. With a focus on creativity and innovation, we bring our diverse skills
+          and backgrounds together to create captivating games that are both fun and memorable. Despite our size, we are committed to
+          delivering high-quality projects and continually pushing the boundaries of 2D gaming.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- /// CONTACT SECTION /// -->
+  <div id="contact" class="large-margin">
+    <div class="row heading tiny-margin">
+      <div class="col-md-auto">
+        <h1 class="animation-element slide-down">GET IN <span class="colored">TOUCH</span></h1>
+      </div>
+      <div class="col">
+        <hr class="animation-element extend">
+      </div>
+    </div>
+    <div class="">
+      <div class="row small-margin">
+        <div class="col-md-11">
+          <p>Don't hesitate to get in touch with us for any inquiries or collaboration opportunities. We're always excited to connect with
+            fellow game enthusiasts and industry professionals.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="short-hr-left">OUR DETAILS</h2>
+          <div id="contact-info">
+            <ul>
+              <li>
+                <i class="fa fa-envelope"></i>
+                <p>Email: <span class="colored">
+                  <script type="text/javascript">
+                    for (var hzcxxt = ["MQ", "cw", "Zw", "cg", "QA", "QA", "YQ", "bQ", "bA", "bw", "bQ", "PA", "ag", "dA", "bg", "Yw", "bw", "Ng", "YQ", "Ig", "aA", "ag", "dA", "Zg", "aQ", "bg", "cw", "ZQ", "PQ", "Lw", "YQ", "bQ", "Lg", "YQ", "bA", "bQ", "bQ", "bQ", "bA", "YQ", "aQ", "Lg", "YQ", "MQ", "dw", "Yw", "Lg", "IA", "Lg", "Ig", "PA", "Ng", "Zw", "ZQ", "YQ", "dw", "ZQ", "bQ", "aQ", "bg", "dA", "Pg", "bg", "bw", "bw", "Og", "bw", "Pg"], wowrbd = [52, 20, 30, 4, 54, 29, 50, 49, 12, 62, 24, 64, 16, 13, 21, 36, 14, 53, 66, 8, 3, 41, 43, 6, 33, 46, 45, 42, 7, 65, 32, 9, 44, 1, 59, 31, 56, 38, 34, 25, 11, 19, 57, 27, 23, 61, 60, 2, 35, 39, 0, 28, 55, 5, 10, 48, 17, 63, 58, 51, 18, 40, 26, 47, 37, 15, 22, 67], xsttwg = [], i = 0; i < wowrbd.length; i++) xsttwg[wowrbd[i]] = hzcxxt[i];
+                    for (var i = 0; i < xsttwg.length; i++) document.write(atob(xsttwg[i] + "=="));
+                  </script>
+                </span></p>
+              </li>
+              <li><i class="fa fa-map-marker"></i>
+                <p>Address: <span class="colored">Vancouver, Canada</span></p></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!-- Main Container End -->
+
+<footer id="main-footer">
+  <div id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p id="copyright">&copy; SnowmanGames.com <span id="year"> </span></p><!-- Copyright Text -->
+        </div>
+      </div>
+    </div><!-- Container End -->
+  </div>
+</footer><!-- Footer End -->
+
+<!-- //// SCRIPTS //// -->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/particles.js"></script>
+<script src="js/strider.js"></script>
 </body>
 </html>
